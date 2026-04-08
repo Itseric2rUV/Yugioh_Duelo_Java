@@ -16,6 +16,7 @@ public class Campo {
     public void colocarMonstruo(Monstruo monstruo) {
         monstruos.add(monstruo);
         System.out.println("Monstruo " + monstruo.getNombre() + " colocado en el campo.");
+        //System.out.println("Cantidad de monstruos ahora: " + monstruos.size());1  Si quieren verificar que no hay errores en cuanto a la lista de monstruos descomenten esto
     }
 
     // Con esto se colocan las cartas mágicas en el campo

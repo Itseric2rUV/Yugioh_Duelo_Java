@@ -14,6 +14,8 @@ El juego se ejecuta completamente por consola y modela las mecánicas principale
 
 ## Autores
 
-* Santiago Romero Restrepo
-* Diego Fernando Pérez
-* Andrés David Perea
+* Santiago Romero Restrepo - 2559949
+* Diego Fernando Pérez - 2559956
+* Andrés David Perea - 2559770
+
+# EL GITHUB NO TIENE COMMITS POR UN ERROR COMETIDO, PERO TODOS CONTRIBUIMOS AUNQUE APAREZCA SOLO 1 PERSONA COMO COLABORADOR

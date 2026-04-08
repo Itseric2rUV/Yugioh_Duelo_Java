@@ -40,16 +40,16 @@ public class InicializadorMazo {
         todasLasCartas.add(new Monstruo("Basic Insect",500,  700, 2));
 
         // Las cartas de magia
-        todasLasCartas.add(new CartaMagica("Pot of Greed","Roba 2 cartas del mazo"));
-        todasLasCartas.add(new CartaMagica("Pot of Greed","Roba 2 cartas del mazo"));
-        todasLasCartas.add(new CartaMagica("Pot of Greed","Roba 2 cartas del mazo"));
-        todasLasCartas.add(new CartaMagica("Pot of Greed","Roba 2 cartas del mazo"));
-        todasLasCartas.add(new CartaMagica("Pot of Greed","Roba 2 cartas del mazo"));
-        todasLasCartas.add(new CartaMagica("Dian Keto","Recupera 1000 LP"));
-        todasLasCartas.add(new CartaMagica("Dian Keto","Recupera 1000 LP"));
-        todasLasCartas.add(new CartaMagica("Dian Keto","Recupera 1000 LP"));
-        todasLasCartas.add(new CartaMagica("Dian Keto","Recupera 1000 LP"));
-        todasLasCartas.add(new CartaMagica("Dian Keto","Recupera 1000 LP"));
+        todasLasCartas.add(new PotOfGreed());
+        todasLasCartas.add(new PotOfGreed());
+        todasLasCartas.add(new PotOfGreed());
+        todasLasCartas.add(new PotOfGreed());
+        todasLasCartas.add(new PotOfGreed());
+        todasLasCartas.add(new DianKeto());
+        todasLasCartas.add(new DianKeto());
+        todasLasCartas.add(new DianKeto());
+        todasLasCartas.add(new DianKeto());
+        todasLasCartas.add(new DianKeto());
 
         Collections.shuffle(todasLasCartas);
 

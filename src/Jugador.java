@@ -6,6 +6,7 @@ public class Jugador {
     private List<Carta> mano;
     private Mazo mazo;
     private Campo campo;
+    private boolean primerTurno = true;
 
     public Jugador(String nombre, int puntosVida, List<Carta> mano, Mazo mazo, Campo campo) {
         this.nombre = nombre;
@@ -53,5 +54,13 @@ public class Jugador {
 
     public void setCampo(Campo campo) {
         this.campo = campo;
+    }
+
+    public boolean isPrimerTurno() {
+        return primerTurno;
+    }
+
+    public void setPrimerTurno(boolean primerTurno) {
+        this.primerTurno = primerTurno;
     }
 }
